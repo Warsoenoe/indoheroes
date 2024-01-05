@@ -1,0 +1,75 @@
+.header{
+    background-color: #d55555;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+    color: white;
+}
+/*akhir navbar*/
+
+
+/*awal kontak*/
+
+.contact {
+    width: 100%;
+    height: 685px;
+    
+}
+
+
+#maps {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+   
+}
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxz {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    height: 150px;
+    background-color: #f6caca;
+    margin-bottom: 0 auto;
+}
+
+.box {
+    flex: 2;
+    order: 1;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.box2 {
+    flex: 2;
+    order: 2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*akhir kontak*/
+
+
+.footer{
+    background-color: rgb(211, 79, 96);
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}

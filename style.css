@@ -1,0 +1,200 @@
+.header{
+    background-color: #d55555;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+}
+.container-fluid a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200px;
+    color: white;
+}
+/*akhir navbar*/
+
+
+/*awal hero*/
+.cont{
+    display: flex;
+    background: linear-gradient(#d55555 0%, #a45050 50%, #bc7878 75%, #bfb4b4);
+    height: 690px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.hero {
+    flex: 2;
+    order: 1;
+    text-align: center;
+    margin-top: 55px;
+    padding: 50px;
+}
+
+.hero2{
+    flex: 1;
+    order: 2;
+    display: flex;
+}
+
+.hero2 img {
+    width: 770px;
+    height: 433px;
+    margin-top: 134px;
+    margin-right: 55px;
+    border: 2px solid #bfb4b4;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 2px 5px #bfb4b4;
+    margin-top: 114px;
+    padding: 7px;
+}
+.hero h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.nav-item a{
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.nav-item a:hover{
+    color: #060606;
+
+}
+
+@media screen and (max-width:1130px){
+    .cont {
+        height: 800px;
+        overflow: hidden;
+    }
+    .hero2 img {
+        width: 770px;
+        height: 433px;
+        margin: 0 auto;
+        border: 2px solid #bfb4b4;
+    }
+
+    .hero h1,h3,p{
+        text-align: center;
+        margin-top: 0;
+        
+    }
+}
+
+/*akhir hero*/
+
+
+/*Awal Daftar*/
+
+.container3 { 
+    padding: 5px;
+}
+
+.daftar{
+    margin-top: 5px;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px 2px salmon;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.daf{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+
+}
+
+.pahlawan{
+    height: 475px;
+    width: 345px;
+    background-color:#eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 15px;
+}
+.pahlawan img{
+    height: 300px;
+    width: 345px;
+    border-radius: 15px;
+}
+
+.pahlawan button{ 
+    text-decoration: none;
+    background-color: rgb(134, 185, 68);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 3px;
+    color: white;
+    margin-left: 120px;
+    border: 0;
+    
+}
+.pahlawan p{
+    text-align: center;
+}
+.pahlawan button:hover{
+    color: white;
+    background-color: salmon;
+}
+
+.pahlawan p{
+    text-align: center;
+}
+
+.modal-body p{
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*Akhir Daftar*/
+
+/*Awal footer*/
+.footer{
+    background-color: #d55555;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*Akhir footer*/
+
+
